@@ -1,92 +1,149 @@
-# Frontend Mentor - Fylo landing page with two column layout
+# Technical Documentation Of Project
 
-![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
+## Table of contents
 
-## Welcome! 👋
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Thanks for checking out this front-end coding challenge.
+## Overview
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+### The Challenge
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+The challenge which was done, the users would be able to:
 
-## The challenge
+- View the optimal layout for the site depending on their device's screen size.
+- See hover states for all interactive elements on the page.
 
-Your challenge is to build out this landing page and get it looking as close to the design as possible.
+### Screenshots
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+I made screenshots available for how the landing page would look on mobile, tablets, laptops and Desktop device. The images can all be seen below:
 
-Your users should be able to: 
+![Desktop View](design/Project-screenshot_desktop.jpeg)
+_The image above shows the desktop view of the landing page._
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+![laptop View](design/Project-screenshot_small-laptops.jpeg)
+_The image above shows the laptop view of the landing page._
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+![Tablet View](design/Poject-screenshot_tabltes.jpeg)
+_The image above shows the tablet view of the landing page._
 
-## Where to find everything
+![Mobile](design/Project-screenshot_mobilephones.jpeg)
+_The image above shows the mobile view of the landing page._
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+## Links
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+The solution and the live url can be seen as provided below:
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- Solution URL: [View Solution URL here](https://github.com/salutDami/Fylo-Landing-Page)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+## My process
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+### Built with
 
-## Building your project
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Desktop-first workflow
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+### What I learned
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+I really enjoyed this project alot, as it helped get a much more better undestanding of using flexbox to make page layouts as that was my aim of taking up this project. I got to see how the the flex-item properties and the flex-container properties can be use to make layouts appear good on a landing page.
 
-## Deploying your project
+I got to practice how to use CSS csutom properties as I figured when doing the project that it helps speed up my work flow when coding, solving problems and carrying out more challenges. The use of pseudo classes also cam in handy when displaying the error message for the the input form. This trick was fun to figure out and learn.
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+I have provided a few code snipptes to show below to show how I was able to implement some of the news things I learned:
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+-Using The CSS Pseudo Class _invalid_
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+```html
+<form class="cta_form cta_form_sign_up" name="Registration Form">
+  <label for="email" class="sr-only">Enter your Email</label>
+  <input
+    type="email"
+    name="email"
+    id="email"
+    placeholder="email@example.com"
+    class="input_email  input_email_sign_up"
+  />
+  <span
+    class="email_error_message error_message_color"
+    role="error meassage"
+    aria-label="Please check your email"
+  ></span>
+  <button class="btn sign_up_btn" type="button">Get Started For Free</button>
+</form>
+```
 
-## Create a custom `README.md`
+```css
+.input_email_sign_up {
+  border: none;
+}
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+.input_email_sign_up:invalid + .email_error_message::after {
+  content: "Please check your email";
+  display: inline-block;
+  position: absolute;
+  color: var(--light-grayish-blue);
+  bottom: 45%;
+  left: 0%;
+  font-size: var(--fs-3);
+}
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+.input_email_sign_up:focus + .email_error_message::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+.input_email_sign_up {
+  flex-grow: 0.5;
+}
+```
 
-## Submitting your solution
+- Using The Custom Properties
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+```css
+root {
+  /* Colors */
+  --very-dark-blue: hsl(243, 87%, 12%);
+  --desaturated-blue: hsl(238, 22%, 44%);
+  --bright-blue: hsl(224, 93%, 58%);
+  --moderate-cyan: hsl(170, 45%, 43%);
+  --light-grayish-blue: hsl(240, 80%, 98%);
+  --light-gray: hsl(0, 0%, 75%);
+  --light-red: hsl(0, 100%, 63%);
+  --light-moderate-cyan: #76bcb0;
+  --light-bright-blue: hsl(224, 87%, 70%);
+  --black: hsl(0, 56%, 2%);
+  --white: hsl(0, 0%, 100%);
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+```
 
-## Sharing your solution
+### Continued development
 
-There are multiple places you can share your solution:
+For my continued development, I would still want to use flexbox to do more projects and make use of the flexbox properties as more projects are done. The use of media queries could still improve in terms of selecting brake points as I struggled with that in some way.
 
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+### Useful resources
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+I would like to provide some very useful resources that helped me do this project.
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+- [w3schools.com](https://www.w3schools.com) - This website was where I was able to learn the flex-box properties I used in carrying out this project.
+- [box-shadow.dev](https://box-shadow.dev/) - This helped me in picking the box shadow for this project on he buttons.
 
-## Got feedback for us?
+## Author
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- Linkedin- [Ikuomola Stephen](https://www.linkedin.com/in/ikuomola-stephen/)
+- Frontend Mentor - [@salutDami](https://www.frontendmentor.io/profile/salutDami)
+- Twitter - [@\_salutDami](https://www.twitter.com/_salutDami)
