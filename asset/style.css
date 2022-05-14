@@ -236,7 +236,7 @@ input[type="email"]::placeholder {
   content: "";
   position: absolute;
   top: -17%;
-  height: 15rem;
+  height: 16rem;
   width: 100%;
 }
 
@@ -489,7 +489,7 @@ input[type="email"]::placeholder {
   border: 1px solid var(--bright-blue);
 }
 
-.attribution {
+/* .attribution {
   font-size: 1.6rem;
   text-align: center;
   margin-top: 2rem;
@@ -497,4 +497,4 @@ input[type="email"]::placeholder {
 }
 .attribution a {
   color: var(--pink);
-}
+} */
