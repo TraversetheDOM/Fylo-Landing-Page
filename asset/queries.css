@@ -1,0 +1,284 @@
+@media screen and (max-width: 81.25em) {
+  .container {
+    max-width: 102rem;
+  }
+
+  :root {
+    --fs-3: 1.2rem;
+    --fs-6: 1.6rem;
+    --fs-7: 1.8rem;
+    --fs-8: 2.4rem;
+    --fs-9: 3rem;
+    --fs-10: 3.4rem;
+  }
+
+  .input_email_hero {
+    flex-grow: 0.5;
+  }
+
+  .hero_btn {
+    flex-grow: 0.1;
+  }
+
+  .testimonial {
+    width: 53%;
+  }
+
+  .footer_flex_container {
+    gap: 150px;
+  }
+
+  .btn {
+    display: inline-block;
+    font-family: var(--ff-Raleway);
+    font-weight: var(--fw-700);
+    font-size: var(--fs-7);
+    background-color: var(--bright-blue);
+    color: var(--light-grayish-blue);
+    padding-block: var(--spacing-3);
+    padding-top: var(--spacing-3);
+    padding-bottom: var(--spacing-3);
+    padding-inline: var(--spacing-5);
+    padding-left: var(--spacing-5);
+    padding-right: var(--spacing-5);
+    border-radius: var(--spacing-2);
+    text-decoration: none;
+    box-shadow: var(--shadow-1);
+    transition: var(--transition);
+  }
+
+  .input_email {
+    border-radius: var(--spacing-2);
+    padding: var(--spacing-4);
+    font-size: var(--fs-6);
+    font-family: var(--ff-Raleway);
+    font-weight: var(--fw-700);
+    color: var(--very-dark-blue);
+  }
+}
+
+@media screen and (max-width: 63.88em) {
+  .container {
+    max-width: 96rem;
+  }
+
+  .hero_flex_container {
+    flex-wrap: wrap-reverse;
+    gap: 40px;
+  }
+
+  .primary_heading {
+    text-align: center;
+    margin-bottom: var(--spacing-5);
+  }
+
+  .primary_text {
+    text-align: center;
+    margin-bottom: var(--spacing-7);
+  }
+
+  .testimonial_section_flex_container {
+    flex-wrap: wrap-reverse;
+    gap: 50px;
+  }
+
+  .input_email_hero {
+    flex-grow: 0.8;
+  }
+
+  .hero_btn {
+    flex-grow: 0.2;
+  }
+
+  .wave::before {
+    top: -11%;
+  }
+
+  .testimonial_heading {
+    text-align: center;
+    margin-bottom: var(--spacing-5);
+  }
+
+  .how_it_works_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--spacing-9);
+  }
+
+  .testimonial {
+    margin: 0 auto;
+    width: 81%;
+  }
+
+  .sign_up_flex_container {
+    gap: 100px;
+  }
+
+  .footer_flex_container {
+    gap: 100px;
+  }
+}
+
+@media screen and (max-width: 48em) {
+  .container {
+    max-width: 50rem;
+  }
+
+  .footer_flex_container {
+    flex-wrap: wrap;
+  }
+
+  .sign_up_flex_container {
+    flex-direction: column;
+  }
+
+  .nav_list {
+    gap: 25px;
+  }
+
+  .img_logo {
+    height: 4rem;
+  }
+}
+
+@media screen and (max-width: 36.25em) {
+  .container {
+    max-width: 48rem;
+    padding: 0 2.8rem;
+  }
+
+  .nav_link {
+    font-size: var(--fs-4);
+  }
+
+  .testimonial {
+    margin: 0 auto;
+    width: 81%;
+  }
+
+  .cta_form {
+    flex-direction: column;
+  }
+
+  .input_email {
+    padding: var(--spacing-6);
+  }
+
+  .btn {
+    padding-block: var(--spacing-5);
+    padding-top: var(--spacing-6);
+    padding-bottom: var(--spacing-6);
+    font-size: var(--fs-7);
+  }
+
+  .input_email:invalid + .email_error_message::after {
+    top: -15%;
+  }
+
+  .sign_up_btn {
+    align-self: stretch;
+    flex-grow: 0.5;
+  }
+
+  .sign_up_flex_container {
+    gap: 50px;
+  }
+
+  .secondary_heading {
+    text-align: center;
+  }
+
+  .secondary_text {
+    text-align: center;
+  }
+
+  .img_logo {
+    height: 4rem;
+  }
+
+  .nav_list {
+    gap: 20px;
+  }
+
+  .input_email_sign_up {
+    flex-grow: 0.5;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .container {
+    max-width: 47.5rem;
+    padding: 0 1.8em;
+  }
+
+  .img_logo {
+    height: 2.5rem;
+  }
+
+  .nav_link {
+    font-size: var(--fs-4);
+  }
+
+  .footer_flex_container {
+    flex-direction: column;
+  }
+
+  .social_media {
+    align-self: center;
+  }
+
+  .wave::before {
+    background-image: url(../images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: "";
+    position: absolute;
+    top: -11%;
+    height: 15rem;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+  }
+}
+
+@media screen and (max-width: 20.56em) {
+  .container {
+    max-width: 29rem;
+    padding: 0 1.2em;
+  }
+
+  :root {
+    --fs-1: 0.2rem;
+    --fs-2: 0.4rem;
+    --fs-3: 0.6rem;
+    --fs-4: 0.8rem;
+    --fs-5: 1rem;
+    --fs-6: 1.3rem;
+    --fs-7: 1.5rem;
+    --fs-8: 2.1rem;
+    --fs-9: 2.7rem;
+    --fs-10: 3.1rem;
+  }
+
+  .arrow_icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .testimonial {
+    width: 79%;
+  }
+
+  .cta_form {
+    gap: 12px;
+  }
+
+  .sign_up_flex_container {
+    gap: 40px;
+  }
+
+  .footer_flex_container {
+    gap: 46px;
+  }
+}
