@@ -12,6 +12,7 @@
   --light-bright-blue: hsl(224, 87%, 70%);
   --black: hsl(0, 56%, 2%);
   --white: hsl(0, 0%, 100%);
+  --pink: hsl(350, 44%, 51%);
 
   /* Typography */
   --ff-Raleway: "Raleway", sans-serif;
@@ -488,4 +489,14 @@ input[type="email"]::placeholder {
 .footer_iocn:active {
   color: var(--bright-blue);
   border: 1px solid var(--bright-blue);
+}
+
+.attribution {
+  font-size: 1.9rem;
+  text-align: center;
+  margin-top: 23rem;
+  color: var(--light-grayish-blue);
+}
+.attribution a {
+  color: var(--pink);
 }
