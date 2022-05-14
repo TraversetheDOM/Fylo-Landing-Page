@@ -232,10 +232,13 @@
     background-image: url(../images/bg-curve-mobile.svg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    /* background-size: cover; */
+    left: 0;
+    right: 0;
     content: "";
     position: absolute;
     top: -11%;
-    height: 15rem;
+    height: 16rem;
     width: 100%;
   }
 }

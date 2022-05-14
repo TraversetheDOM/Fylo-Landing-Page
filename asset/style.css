@@ -233,6 +233,7 @@ input[type="email"]::placeholder {
   background-image: url(../images/bg-curve-desktop.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  /* background-size: cover; */
   content: "";
   position: absolute;
   top: -17%;
@@ -487,4 +488,15 @@ input[type="email"]::placeholder {
 .footer_iocn:active {
   color: var(--bright-blue);
   border: 1px solid var(--bright-blue);
+}
+
+.attribution {
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--light-grayish-blue);
+  margin-top: 20rem;
+}
+
+.attribution a {
+  color: var(--pink);
 }
