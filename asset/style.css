@@ -492,9 +492,9 @@ input[type="email"]::placeholder {
 }
 
 .attribution {
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   text-align: center;
-  margin-top: 23rem;
+  margin-top: 2rem;
   color: var(--light-grayish-blue);
 }
 .attribution a {
