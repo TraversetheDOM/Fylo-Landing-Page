@@ -28,15 +28,19 @@ The challenge which was done, the users would be able to:
 I made screenshots available for how the landing page would look on mobile, tablets, laptops and Desktop device. The images can all be seen below:
 
 ![Desktop View](design/Project-screenshot_desktop.jpeg)
+
 _The image above shows the desktop view of the landing page._
 
 ![laptop View](design/Project-screenshot_small-laptops.jpeg)
+
 _The image above shows the laptop view of the landing page._
 
 ![Tablet View](design/Poject-screenshot_tabltes.jpeg)
+
 _The image above shows the tablet view of the landing page._
 
 ![Mobile](design/Project-screenshot_mobilephones.jpeg)
+
 _The image above shows the mobile view of the landing page._
 
 ## Links
