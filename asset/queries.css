@@ -121,9 +121,9 @@
 }
 
 @media screen and (max-width: 48em) {
-  .container {
+  /* .container {
     max-width: 50rem;
-  }
+  } */
 
   .footer_flex_container {
     flex-wrap: wrap;
@@ -144,7 +144,7 @@
 
 @media screen and (max-width: 36.25em) {
   .container {
-    max-width: 48rem;
+    /* max-width: 48rem; */
     padding: 0 2.8rem;
   }
 
