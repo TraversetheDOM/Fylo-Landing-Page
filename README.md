@@ -48,7 +48,7 @@ _The image above shows the mobile view of the landing page._
 The solution and the live url can be seen as provided below:
 
 - Solution URL: [View Solution URL here](https://github.com/TraversetheDOM/Fylo-Landing-Page)
-- Live Site URL: [Add live site URL here](https://TraverseTheDOM.github.io/Fylo-Landing-Page/)
+- Live Site URL: [Add live site URL here](https://TraversetheDOM.github.io/Fylo-Landing-Page/)
 
 ## My process
 
