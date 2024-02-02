@@ -18,7 +18,7 @@
 
 ### The Challenge
 
-The challenge which was done, the users would be able to:
+The challenge which was done. The users would be able to:
 
 - View the optimal layout for the site depending on their device's screen size.
 - See hover states for all interactive elements on the page.
@@ -45,10 +45,10 @@ _The image above shows the mobile view of the landing page._
 
 ## Links
 
-The solution and the live url can be seen as provided below:
+The solution and the live URL can be seen as provided below:
 
-- Solution URL: [View Solution URL here](https://github.com/TraversetheDOM/Fylo-Landing-Page)
-- Live Site URL: [Add live site URL here](https://TraversetheDOM.github.io/Fylo-Landing-Page/)
+- Solution URL: [View Solution URL here](https://github.com/stephenikuomola/Fylo-Landing-Page)
+- Live Site URL: [Add live site URL here](https://stephenikuomola.github.io/Fylo-Landing-Page/)
 
 ## My process
 
@@ -61,11 +61,11 @@ The solution and the live url can be seen as provided below:
 
 ### What I learned
 
-I really enjoyed this project alot, as it helped get a much more better undestanding of using flexbox to make page layouts as that was my aim of taking up this project. I got to see how the the flex-item properties and the flex-container properties can be use to make layouts appear good on a landing page.
+I enjoyed this project a lot, as it helped me get a much better understanding of using Flexbox to make page layouts, which was my aim in taking up this project. I got to see how the flex-item properties and the flex-container properties can make layouts appear good on a landing page.
 
-I got to practice how to use CSS csutom properties as I figured when doing the project that it helps speed up my work flow when coding, solving problems and carrying out more challenges. The use of pseudo classes also cam in handy when displaying the error message for the the input form. This trick was fun to figure out and learn.
+I got to practice using CSS custom properties as I figured when doing the project that it helps speed up my coding workflow, solving problems and carrying out more challenges. The use of pseudo-classes also came in handy when displaying the error message for the input form. This trick was fun to figure out and learn.
 
-I have provided a few code snipptes to show below to show how I was able to implement some of the news things I learned:
+I have provided a few code snippets to show below to show how I was able to implement some of the new things I learned:
 
 -Using The CSS Pseudo Class _invalid_
 
@@ -137,17 +137,17 @@ root {
 
 ### Continued development
 
-For my continued development, I would still want to use flexbox to do more projects and make use of the flexbox properties as more projects are done. The use of media queries could still improve in terms of selecting brake points as I struggled with that in some way.
+For my continued development, I still want to use Flexbox to do more projects and use the Flexbox properties as more projects are done. The use of media queries could still improve in terms of selecting breakpoints, as I struggled with that in some way.
 
 ### Useful resources
 
-I would like to provide some very useful resources that helped me do this project.
+I want to provide valuable resources that helped me do this project.
 
 - [w3schools.com](https://www.w3schools.com) - This website was where I was able to learn the flex-box properties I used in carrying out this project.
-- [box-shadow.dev](https://box-shadow.dev/) - This helped me in picking the box shadow for this project on he buttons.
+- [box-shadow.dev](https://box-shadow.dev/) - This helped me pick the box shadow for this project on the buttons.
 
 ## Author
 
 - Linkedin- [Ikuomola Stephen](https://www.linkedin.com/in/ikuomola-stephen/)
-- Frontend Mentor - [@salutDami](https://www.frontendmentor.io/profile/salutDami)
-- Twitter - [@\_salutDami](https://www.twitter.com/_salutDami)
+- Frontend Mentor - [@salutDami](https://www.frontendmentor.io/profile/stephenikuomola)
+- Twitter - [@\_salutDami](https://www.twitter.com/stephenikuomola)
